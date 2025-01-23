@@ -1,0 +1,678 @@
+background:
+    image: 'https://storage.cloud-preprod.yandex.net/cloud-www-assets/constructor/services/compute/background_compute-cloud.png'
+
+
+blocks:
+  - type: 'header-block'
+    title: "**Мик** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+    overtitle: '4–15 декабря 2023'
+    description: "Онлайн-фестиваль Yandex Cloud для аналитиков, руководителей и всех, кто интересуется лучшими практиками визуализации и анализа данных с помощью Yandex DataLens.
+
+
+
+          Эксперты рассказали, как построить аналитику в облаке, организовать командную работу в BI-системе и использовать open source для своих задач.
+
+
+
+          _Фестиваль прошёл, но вы можете ознакомиться с [материалами](https://practicum.yandex.ru/professions/datalens-fest-2023/subscribe/) бесплатно._"
+    width: 's'
+    resetPaddings: true
+    verticalOffset: 'm'
+    theme: 'default'
+    breadcrumbs:
+      items:
+        - url: '/'
+          text: 'На главную'
+    background:
+      image:
+        mobile: 'https://storage.yandexcloud.net/cloud-www-assets/datalens-fest-2023/img_cover_mob.png'
+        desktop: 'https://storage.yandexcloud.net/cloud-www-assets/datalens-fest-2023/img_cover.png'
+        disableCompress: true        
+      color: '#EFF2F8'
+      fullWidth: false
+
+  - type: 'media-block'
+    direction: 'media-content'
+    animated: false    
+    anchor:
+      url: '1'
+      text: 'Для кого'
+    media:
+      image:
+        src: 'https://storage.yandexcloud.net/cloud-www-assets/datalens-fest-2023/img_1.png'
+        
+    disableShadow: true
+    title: "media-block **Микросервисная** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+    description: "* Для аналитиков, которые уже используют DataLens или хотят познакомиться с инструментом поближе
+
+      * Для руководителей или тимлидов аналитики, которые выбирают BI‑систему и хотят узнать о ней больше
+
+      * Для разработчиков, которые хотят использовать open source в собственных проектах"
+
+  - type: 'banner-block'
+    title: "banner-block **Микро** 
+      
+
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+    subtitle: "Эксперты помогли разобраться в нюансах работы с DataLens, сравнить сервис с другими решениями и запланировать переезд на новую BI‑систему."
+    image: "https://storage.yandexcloud.net/cloud-www-assets/constructor/services/datalens/datalens-fest-banner.png"
+    color: '#D2E4FF'
+    button:
+      text: 'Подробнее'
+      url: '/ru/datalens-festival-2022'
+
+  # - type: 'slider-block'
+  #   anchor:
+  #     url: 'cases'
+  #     text: 'Истории успеха'
+  #   title:
+  #     text: 'slider-block **Микросервисная** 
+      
+  #     **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^'
+  #     url: '/cases'
+  #   slidesToShow: 1
+  #   randomOrder: true
+  #   children:
+  #     - type: 'media-card'
+  #       title: "media-card **Микросервисная** 
+      
+  #     **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+  #       image: 'https://storage.yandexcloud.net/cloud-www-assets/solutions/microservices/Web_C-Vision.png'
+  #     - type: 'media-card'
+  #       title: "media-card **Микросервисная** 
+      
+  #     **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+  #       image: 'https://storage.yandexcloud.net/cloud-www-assets/solutions/microservices/Web_CarTaxi.png'
+  #     - type: 'media-card'
+  #       title: "media-card **Мик** 
+      
+  #     **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+  #       image: 'https://storage.yandexcloud.net/cloud-www-assets/solutions/microservices/Web_e-queo.png'
+
+
+  - type: 'card-layout-block'
+    title:
+      text: 'layout **Микросервисная** 
+      
+      **_архитектура_** в _облаке_. Разраб\_с\_использованием ~~архитектуры~~. ^New^'
+    description: 'Правила тарификации доступны в [документации](/docs/datalens/pricing), а обзор возможностей тарифов — [в блоге](/blog/posts/2024/03/datalens-tariffs).'
+    colSizes:
+      all: 12
+      md: 4
+      sm: 12
+    children:
+      - type: 'price-card'
+        border: 'none'
+        title: "price **Микросервисная** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+        price: 'Бесплатно'
+        priceDetails: 'Количество пользователей не ограничено'
+        description: 'Для небольших команд и некоммерческих проектов.
+        
+        Доступны базовые возможности, включая:'
+        backgroundColor: '#CCDAFF'
+        list:
+          - "Создание чартов и дашбордов"
+          - 'Описание модели данных'
+          - 'Аналитические вычисления и SQL'
+          - 'Ролевая модель прав доступа'
+          - 'Аутентификация с помощью Яндекс ID'
+          - 'Базовая техническая поддержка'
+        buttons:
+          - text: 'Начать пользоваться'
+            primary: true
+            theme: 'monochrome'
+            width: 'max'
+            url: 'https://datalens.yandex.cloud/settings/billing-rates'
+            analyticsEvents:
+              - name: 'DLGOTOCONSOLE'
+                counters:
+                  include:
+                    - 'main'
+      - type: 'price-card'
+        when: 'region != ''kz'''
+        border: 'none'
+        title: "price **Микросервисная** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+        price: '990 ₽'
+        pricePeriod: 'месяц'
+        priceDetails: 'за активного пользователя'
+        description: "Для корпоративных внедрений и бизнес-задач.
+        
+        
+        Все возможности тарифа Community, а также:"
+        backgroundColor: '#9EB9FF'
+        theme: 'light'
+        list:
+          - "Конструктор отчётов ^New^"
+          - "Стилизация интерфейса"
+          - "Федерация учётных записей и SSO"
+          - "Безопасное встраивание чартов ^New^"
+          - "Контроль публикаций ^New^"
+          - "Статистика использования"
+          - "SLA и приоритетная поддержка"
+        buttons:
+          - text: 'Перейти на тариф'
+            primary: true
+            theme: 'monochrome'
+            width: 'max'
+            url: 'https://datalens.yandex.cloud/settings/billing-rates'
+            analyticsEvents:
+              - name: 'DLGOTOCONSOLE'
+                counters:
+                  include:
+                    - 'main'
+      - type: 'price-card'
+        when: 'region == ''kz'''
+        border: 'none'
+        title: "price **Микросервисная** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+        price: '4 950 ₸'
+        pricePeriod: 'месяц'
+        priceDetails: 'за активного пользователя'
+        description: "Для корпоративных внедрений и бизнес-задач.
+        
+        
+        Все возможности тарифа Community, а также:"
+        backgroundColor: '#9EB9FF'
+        theme: 'light'
+        list:
+          - "Конструктор отчётов ^New^"
+          - "Стилизация интерфейса"
+          - "Федерация учётных записей и SSO"
+          - "Безопасное встраивание чартов ^New^"
+          - "Контроль публикаций ^New^"
+          - "Статистика использования"
+          - "SLA и приоритетная поддержка"
+        buttons:
+          - text: 'Перейти на тариф'
+            primary: true
+            theme: 'monochrome'
+            width: 'max'
+            url: 'https://datalens.yandex.cloud/settings/billing-rates'
+            analyticsEvents:
+              - name: 'DLGOTOCONSOLE'
+                counters:
+                  include:
+                    - 'main'
+      - type: 'price-card'
+        border: 'none'
+        title: "price **Мик** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+        price: 'По запросу'
+        pricePeriod: 'год'
+        priceDetails: 'за активного пользователя, минимум 100'
+        description: 'Для гибридных сценариев и разворачивания в любой инфраструктуре.
+        
+        
+        Все возможности тарифа Business, а также on-premise дистрибутив на то же количество пользователей:'
+        backgroundColor: '#EFF2F8'
+        list:
+          - 'Разворачивание в любой инфраструктуре'
+          - 'Обеспечение закрытого контура'
+          - 'Документация по администрированию'
+          - 'Регулярные обновления и поддержка'
+          - 'Реестр отечественного ПО ^Soon^'
+        buttons:
+          - text: 'Оставить заявку'
+            primary: true
+            theme: 'raised'
+            width: 'max'
+            url: 'https://forms.yandex.com/surveys/13479934.44bf01c84f10842e81a7738a009e1c54e6a391f7/?lang=ru'
+
+
+  - type: card-layout-block
+    title: Наши проекты
+    description: >-
+      <p>В&nbsp;Яндексе мы&nbsp;разрабатываем и&nbsp;развиваем технологические
+      решения самых разных сфер применения, размеров и&nbsp;сложности. Поэтому
+      и&nbsp;в&nbsp;открытый **доступ** попадают самые разные проекты&nbsp;&mdash;
+      главное, чтобы они приносили пользу не&nbsp;только нам,
+      но&nbsp;и&nbsp;другим.</p>
+    colSizes:
+      all: 12
+      lg: 6
+      md: 6
+      sm: 6
+    anchor:
+      url: projects
+      text: projects
+    children:
+      - text: A good decision is based on knowledge and not on numbers.
+        title: "quote **Микросервисная** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+        author:
+          firstName: ' Plato'
+          description: Greek philosopher
+        type: quote
+      - text: A good decision is based on knowledge and not on numbers.
+        title: "quote **Микросервисная** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+        author:
+          firstName: ' Plato'
+          description: Greek philosopher
+        type: quote
+
+
+
+
+  - largeMedia: true
+    mediaOnly: false
+    size: l
+    type: media-block
+    direction: content-media
+    anchor:
+      url: '1'
+      text: Фильм
+    title: <p>Смотрите фильм с&nbsp;YaC&nbsp;22</p>
+    description: >-
+      <p>Руководители опенсорс‑проектов рассказывают про&nbsp;историю
+      и&nbsp;культуру открытого кода в&nbsp;Яндексе.</p>
+    media:
+      youtube: https://www.youtube.com/watch?v=G7G286S8ntc
+      previewImg: >-
+        https://storage.yandexcloud.net/cloud-www-assets/pages/open-source/video-cover.png
+    disableShadow: true
+
+
+
+  - type: 'table-block'
+    title: "table **Микросервисная** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+    anchor: 
+      url: tools
+      text: Инструменты защиты
+    table:
+      justify:
+        - 'start'
+        - 'start'
+        - 'start'
+        - 'start'
+        - 'start'
+      legend:
+        - "Недоступно"
+        - "Доступно"
+      content:
+      - 
+        - "Инструмент, направления защиты и преимущества"
+        - 'Yandex Smart Web Security'
+        - 'Yandex DDoS Protection'
+        - 'Расширенная защита от DDoS-атак'
+        - 'Расширенная защита от DDoS-атак и Managed WAF'
+        - 'Самостоятельная установка WAF'
+      -
+        - "Исчерпание ёмкости каналов и ресурсов"
+        - 0
+        - 1
+        - 1
+        - 1
+        - 0
+      -
+        - "Вывод системы или приложения из строя"
+        - 1
+        - 0
+        - 1
+        - 1
+        - 0
+      -
+        - 'Защита от атак из списка OWASP TOP-10'
+        - 1
+        - 0
+        - 0
+        - 1
+        - 1
+      -
+        - 'Личный кабинет с настройками и статистикой'
+        - 1
+        - 0
+        - 1
+        - 1
+        - 0
+      -
+        - 'Встроенная защита от ботов'
+        - 1
+        - 0
+        - 1
+        - 1
+        - 0
+      -
+        - 'Гибкая настройка правил фильтрации трафика'
+        - 1
+        - 0
+        - 0
+        - 0
+        - 1
+      -
+        - 'Встроенный мониторинг и логирование трафика'
+        - 1
+        - 0
+        - 0
+        - 0
+        - 0
+
+
+  - title: "content **Мик** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    type: content
+
+
+  - type: card-layout-block
+    title: Наши проекты  ^New^
+    description: >-
+      <p>В&nbsp;Яндексе мы&nbsp;разрабатываем и&nbsp;развиваем технологические
+      решения самых разных сфер применения, размеров и&nbsp;сложности. Поэтому
+      и&nbsp;в&nbsp;открытый доступ попадают самые разные проекты&nbsp;&mdash;
+      главное, чтобы они приносили пользу не&nbsp;только нам,
+      но&nbsp;и&nbsp;другим.</p>
+    colSizes:
+      all: 12
+      lg: 3
+      md: 4
+      sm: 6
+    anchor:
+      url: projects
+      text: projects
+    children:
+      - color: rgba(54, 151, 241, 0.4)
+        title: "какой-то **простой** текст"
+        subtitle: Some sort of description.
+        button:
+          text: Read more
+        type: banner-card
+      - color: rgba(54, 151, 241, 0.4)
+        title: "banner-card **Мик**  
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+        subtitle: Some sort of description.
+        button:
+          text: Read more
+        type: banner-card
+      - color: rgba(54, 151, 241, 0.4)
+        title: "banner-card **Мик**  
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+        subtitle: Some sort of description.
+        button:
+          text: Read more
+        type: banner-card
+
+
+  - type: 'card-layout-block'
+    title:
+      text: "card-layout **Микросервисная** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+    colSizes:
+     all: 12
+     xl: 3
+     md: 3
+     sm: 6
+    children:
+      - type: 'layout-item'
+        content:
+          title: "Павел Дубинин"
+          text: "Менеджер продукта Yandex DataLens"
+        media:
+          image: 'https://storage.yandexcloud.net/cloud-www-assets/datalens-fest-2023/speaker_photo_dubinin.jpg'
+      - type: 'layout-item'
+        content:
+          title: 'Гаджи Гаджиев'
+          text: 'Руководитель Yandex DataLens'
+        media:
+          image: 'https://storage.yandexcloud.net/cloud-www-assets/datalens-fest-2023/speaker_photo_gadjiev.jpg'
+      - type: 'layout-item'
+        content:
+          title: 'Георгий Малков'
+          text: 'Разработчик интерфейсов Yandex DataLens'
+        media:
+          image: 'https://storage.yandexcloud.net/cloud-www-assets/datalens-fest-2023/speaker_photo_malkov.jpg'
+      - type: 'layout-item'
+        content:
+          title: 'Иван Веткасов'
+          text: 'Архитектор Yandex Cloud'
+        media:
+          image: 'https://storage.yandexcloud.net/cloud-www-assets/datalens-fest-2023/speaker_photo_vetkasov.jpg'
+      - type: 'layout-item'
+        content:
+          title: 'Андрей Ривкин'
+          text: 'Технический менеджер проектов YTsaurus'
+        media:
+          image: 'https://storage.yandexcloud.net/cloud-www-assets/datalens-fest-2023/speaker_photo_rivkin.jpg'
+
+
+
+  - type: 'content-layout-block'
+    textContent:
+      title: "content-layout **Мик** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+      text: 'В этом году фестиваль состоял из двух тематических треков. Материалы фестиваля размещены на платформе [Яндекс Практикум](https://practicum.yandex.ru/professions/datalens-fest-2023/subscribe/) с доступом в личный кабинет. Доступ бесплатный.'
+
+
+
+  - type: 'extended-features-block'
+    title: "extended **Мик** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+    items:
+      - title: 'Контейнеризация приложений'
+        text: 'Разместите ваши микросервисы внутри изолированных контейнеров в облаке. Управляйте кластерами, создавайте задачи автоматического обновления и отката, настраивайте политики безопасности и контролируйте работу с помощью Yandex Managed Service for Kubernetes®.'
+        link:
+          url: '/services/managed-kubernetes'
+          text: 'Узнать больше'
+          theme: 'normal'
+          arrow: true
+      - title: 'Поддержка открытых систем'
+        text: 'Используйте для создания и обслуживания проектов открытые системы и универсальные протоколы взаимодействия. Команда разработчиков Yandex Cloud и развитое сообщество пользователей платформы помогут в решении нестандартных задач и выборе оптимальных инструментов для работы с микросервисной архитектурой.'
+      - title: 'Эффективность разработки'
+        text: 'Разрабатывайте и выпускайте новые фичи в независимых средах распределёнными командами в соответствии с релизным циклом. Настройте автоскейлинг и масштабируйте ресурсы по требованию – вверх при увеличении нагрузки и вниз для сокращения расходов.'
+        link:
+          url: '/prices'
+          text: 'Подробнее о тарифах'
+          theme: 'normal'
+          arrow: true
+      - title: 'Управляемые базы данных'
+        text: 'Ускорьте работу ваших приложений и повышайте отказоустойчивость с помощью управляемых кластеров баз данных. Назначьте каждому сервису базу, которая обеспечит наивысшую эффективность работы, например, Valkey™ для пользовательских сессий, а PostgreSQL для бэкенда веб-приложений. '
+      - title: 'Инструменты аналитики'
+        text: 'Постройте аналитическую систему и контролируйте работу приложений. Графики и дашборды с ключевыми метриками позволят вовремя выявить ошибки и выполнить отладку. Инструменты аналитики изолированы от рабочей среды и не влияют на производительность приложений.'
+        link:
+          url: '/services/datalens'
+          text: 'Подробнее'
+          theme: 'normal'
+          arrow: true
+      - title: 'Единая среда разработки'
+        text: 'Организуйте полный цикл создания приложений внутри платформы Yandex Cloud – от разработки и тестирования до запуска в продакшн. Сервисы экосистемы поддерживают большинство языков программирования, а также современные технологии управления контейнерами и образами.'
+
+
+  # - type: 'tabs-block'
+  #   animated: false
+  #   title:
+  #     text: 'Мы знаем, как решить ваши задачи'
+  #   items:
+  #     - tabName: 'Разработка в облаке'
+  #       title: 'Инструменты для разработки, тестирования и запуска'
+  #       media:
+  #         image:
+  #           - 'https://storage.yandexcloud.net/cloud-www-assets/solutions/medicine/web-service-2-k8s.png'
+  #           - 'https://storage.yandexcloud.net/cloud-www-assets/solutions/schemes/video-conference-telemedicine.png'
+  #           - 'https://storage.yandexcloud.net/cloud-www-assets/solutions/schemes/speechkit-healthcare.png'
+  #       caption: 'Готовая масштабируемая инфраструктура для быстрого запуска сервиса в облаке'
+  #       text: "Разворачивайте Dev/Test среды для проверки гипотез, проведения экспериментов и размещения в облаке высокодоступных сервисов. Настраивайте инфраструктуру и автоматизируйте рутинные операции с помощью управляемых сервисов и современных инструментов.\n\nПлатформа Yandex\_Cloud ускоряет создание новых продуктов, обеспечивает надёжное хранение ваших данных и гибкость настройки используемых ресурсов, помогает организовать совместную работу распределённых команд разработчиков."
+  #     - tabName: 'Телемедицина'
+  #       title: 'Надёжная платформа для дистанционных консультаций'
+  #       media:
+  #         image: 
+  #           - 'https://storage.yandexcloud.net/cloud-www-assets/solutions/schemes/video-conference-telemedicine.png'
+  #           - 'https://storage.yandexcloud.net/cloud-www-assets/solutions/schemes/video-conference-telemedicine.png'
+  #       caption: "Пример архитектуры использования сервисов Yandex\_Cloud для организации видеоконференцсвязи"
+  #       text: "Создавайте сервисы для предоставления быстрого и стабильного доступа к дистанционным консультациям врачей на сайте, в приложении или с помощью удалённых рабочих столов.\n\nОблачная платформа позволит разрабатывать и запускать приложения для телемедицины, гибко масштабировать ресурсы, надёжно хранить персональные данные пациентов, а также огромные массивы информации с результатами анализов, диагностики и приёмов врачей."
+  #     - tabName: 'Принятие врачебных решений'
+  #       title: 'ML-технологии для поддержки принятия врачебных решений'
+  #       media:
+  #         image: 
+  #           - 'https://storage.yandexcloud.net/cloud-www-assets/solutions/medicine/med-compvision-sheme.png'
+  #       caption: 'Применение технологий компьютерного зрения для обработки медицинских снимков'
+  #       text: "Используйте современные технологии машинного обучения для обработки больших данных и анализа медицинских изображений. Выявляйте с высокой чувствительностью и скоростью признаки COVID-19 и других патологий благодаря вычислительным мощностям облачной платформы, включая графические процессоры (GPU).\n\nСложные алгоритмы, измерения и визуализации, выполняемые с помощью сервисов Yandex\_Cloud, помогают принимать врачебные решения, дополняя, но не изменяя процесс диагностики, и предоставляя медицинскому персоналу привычную рабочую среду."
+
+
+
+
+
+  - type: content-layout-block
+    textContent:
+      title: "content-layout **Мик** 
+      
+      **_архитектура_** в _облаке_. Разрабатывайте приложения\_с\_использованием\_микросервисной ~~архитектуры~~. ^New^"
+      text: "> Ut enim ad minim veniam</strong> <a href=\"https://example.com\">quis nostrud</a> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es>\n"
+
+
+
+
+  - type: 'card-layout-block'
+    title:
+      text: 'Техническая поддержка'
+    colSizes:
+      md: 6
+      sm: 12
+    children:
+      - type: 'background-card'
+        title: ""
+        text: "Базовая
+
+            ## Режим 8×5
+
+            Рекомендуется для Test&Dev-сред."
+        list:
+          - icon: 'https://storage.yandexcloud.net/cloud-www-assets/pages/partners/check.svg'
+            title: ''
+            text: 'Консультации по развёртыванию и использованию YDB.'
+          - icon: 'https://storage.yandexcloud.net/cloud-www-assets/pages/partners/check.svg'
+            title: ''
+            text: 'Рекомендации по эффективной разработке приложений.'
+          - icon: 'https://storage.yandexcloud.net/cloud-www-assets/pages/partners/check.svg'
+            title: ''
+            text: 'Диагностика ошибок и плановое решение проблем.'
+        backgroundColor: '#EEF2F8'
+
+      - type: 'background-card'
+        title: ""
+        text: "Расширенная
+
+          ## Режим 24×7
+
+          Рекомендуется для production-сред."
+        list:
+          - icon: 'https://storage.yandexcloud.net/cloud-www-assets/pages/partners/check.svg'
+            title: ''
+            text: 'Диагностика силами инженеров службы поддержки.'
+          - icon: 'https://storage.yandexcloud.net/cloud-www-assets/pages/partners/check.svg'
+            title: ''
+            text: 'Вовлечение разработчиков при необходимости.'
+          - icon: 'https://storage.yandexcloud.net/cloud-www-assets/pages/partners/check.svg'
+            title: ''
+            text: 'Оперативный выпуск исправлений.'
+        backgroundColor: '#262626'
+        color: '#ffffff'
+
+
+
+
+
+
+  - type: 'card-layout-block'
+    title:
+      text: 'Решает задачи крупного бизнеса'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'Модернизация и масштабирование'
+          text: 'Мигрируйте на СУБД Яндекса с поддержкой горизонтального масштабирования и возможностью развёртывания на произвольных аппаратных средствах. Для упрощения миграции клиентам доступны совместимость с диалектом PostgreSQL для чтения данных, набор коннекторов к внешним системам и разработка утилит для миграции партнёрами Яндекса.'
+        icon: 
+          position: left
+          value: 'https://storage.yandexcloud.net/content-assets-bucket/ydb/thunderbolt.svg'
+
+      - type: 'layout-item'
+        content:
+          title: 'Разработка бизнес-критичных систем'
+          text: 'Создавайте высоконагруженные аналитические и транзакционные решения. Качество данных обеспечивается за счёт соответствия самому строгому уровню изоляции Serializable, а также сохранения строгой согласованности данных и гарантий доставки топиков exactly once.'
+        icon: 
+          position: left
+          value: 'https://storage.yandexcloud.net/content-assets-bucket/ydb/seal-check.svg'
+
+      - type: 'layout-item'
+        content:
+          title: 'Консолидация и администрирование'
+          text: 'Снижайте затраты на эксплуатацию и повышайте утилизацию аппаратных ресурсов. Консолидируйте несколько инсталляций СУБД и используйте автоматические механизмы партиционирования данных, восстановления после сбоя, а также эффективные инструменты диагностики и мониторинга.'
+        icon: 
+          position: left
+          value: 'https://storage.yandexcloud.net/content-assets-bucket/ydb/tag.svg'
+
+
+
+
+
+  - type: 'card-layout-block'
+    animated: false
+    title: "Провайдеры поддержки"
+    colSizes:
+      all: 12
+      md: 3
+      sm: 6
+    children:
+      - type: 'image-card'
+        border: line
+        title: ''
+        text: ""
+        image: 'https://storage.yandexcloud.net/cloud-www-assets/solutions/medicine/web-service-2-k8s.png'
+      - type: 'image-card'
+        border: line
+        title: ''
+        text: ''
+        image: 'https://storage.yandexcloud.net/cloud-www-assets/solutions/medicine/web-service-2-k8s.png'
+      - type: 'image-card'
+        border: line
+        title: ''
+        text: ""
+        image: 'https://storage.yandexcloud.net/cloud-www-assets/solutions/medicine/web-service-2-k8s.png'
+      - type: 'image-card'
+        border: line
+        title: ''
+        text: ""
+        image: 'https://storage.yandexcloud.net/cloud-www-assets/solutions/medicine/web-service-2-k8s.png'
+
+
+
+
+  - type: 'info-block'
+    title: 'Info Block ^New^'
+    buttons:
+    - text: 'Button 1'
+      theme: 'raised'
+      url: 'https://console.cloud.yandex.ru/'
+    - text: 'Button 2'
+      theme: 'pseudo-special'
+      url: '/'
+    sectionsTitle: 'Sections'
+    links:
+    - text: 'First Link'
+      url: '/'
+    - text: 'Second Link'
+      url: '/'
+    - text: 'Third Link'
+      url: '/'
+animated: false
