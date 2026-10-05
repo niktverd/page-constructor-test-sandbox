@@ -12,7 +12,7 @@ const isProd = process.env.NODE_ENV === 'production';
 /** @type {import('next').NextConfig} */
 module.exports = {
     ...modeRelatedConfig,
-    reactStrictMode: true,
+    reactStrictMode: false,
     trailingSlash: true,
     compress: true,
     transpilePackages: ['@doc-tools/components'],
